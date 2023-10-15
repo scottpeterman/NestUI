@@ -1,0 +1,58 @@
+groups:
+  - name: Development
+    apps:
+      - name: VS Code
+        path: "C:/Users/speterman/AppData/Local/Programs/Microsoft VS Code/Code.exe"
+        args: ""
+        working_dir: "C:/Users/speterman/"
+
+  - name: Terminals
+    apps:
+      - name: UglierPTY
+        path: "C:/Users/speterman/.virtualenvs/NestUI-DIV8FIo5/Scripts/pythonw.exe"
+        args: "-m uglierpty"
+        working_dir: "./"
+
+  - name: Servers
+    apps:
+      - name: TFTPy-GUI
+        path: "C:/Users/speterman/.virtualenvs/NestUI-DIV8FIo5/Scripts/pythonw.exe"
+        args: "./nestui/uglyplugin_tftp/server.py"
+        working_dir: "./"
+      - name: SFTP-GUI
+        path: "C:/Users/speterman/.virtualenvs/NestUI-DIV8FIo5/Scripts/pythonw.exe"
+        args: "./nestui/uglyplugin_sftp/sftpqt.py"
+        working_dir: "./"
+
+  - name: Parsers
+    apps:
+      - name: Parsing Multitool
+        path: "C:/Users/speterman/.virtualenvs/NestUI-DIV8FIo5/Scripts/pythonw.exe"
+        args: "./nestui/uglyplugin_parsers/uglyparsers.py"
+        working_dir: "./"
+      - name: TTP Builder
+        path: "C:/Users/speterman/.virtualenvs/NestUI-DIV8FIo5/Scripts/pythonw.exe"
+        args: "./nestui/uglyplugin_ttpbuilder/ttpgui.py"
+        working_dir: "./"
+
+  - name: Authentication
+    apps:
+      - name: LDAP
+        path: "C:/Users/speterman/.virtualenvs/NestUI-DIV8FIo5/Scripts/pythonw.exe"
+        args: "./nestui/uglyplugin_pyqtldap/pyqtldap.py"
+        working_dir: "./"
+
+  - name: Misc
+    apps:
+      - name: Grep GUI
+        path: "C:/Users/speterman/.virtualenvs/NestUI-DIV8FIo5/Scripts/pythonw.exe"
+        args: "./nestui/uglyplugin_grep/UglyGrep.py"
+        working_dir: "./"
+      - name: IP Calculator
+        path: "C:/Users/speterman/.virtualenvs/NestUI-DIV8FIo5/Scripts/pythonw.exe"
+        args: "./nestui/uglyplugin_ipcalc/ipcalc.py"
+        working_dir: "./"
+      - name: TCP Portscanner Lite
+        path: "C:/Users/speterman/.virtualenvs/NestUI-DIV8FIo5/Scripts/pythonw.exe"
+        args: "./nestui/uglyplugin_portscanlight/psgui.py"
+        working_dir: "./"

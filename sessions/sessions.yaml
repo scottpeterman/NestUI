@@ -1,0 +1,11 @@
+- folder_name: 0 - Linux
+  sessions:
+  - DeviceType: Linux
+    Model: NUC
+    SerialNumber: ''
+    SoftwareVersion: '22.04'
+    Vendor: Ubuntu
+    credsid: '1'
+    display_name: Switch1
+    host: 172.16.201.101
+    port: '22'
