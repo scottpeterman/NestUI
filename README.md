@@ -54,5 +54,3 @@ NEST is more than just the sum of its plugins. It's a canvas, waiting for its us
 Embrace NEST not just as a toolbox, but as an inspiration. It's an example of what's achievable when the worlds of networking and programming converge. Dive in, explore, expand, and most importantly, never stop learning!
 
 ---
-
-Feel free to modify or expand upon this introduction as you see fit.
