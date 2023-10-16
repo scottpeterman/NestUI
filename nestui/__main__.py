@@ -8,7 +8,7 @@ import yaml
 from PyQt6.QtCore import Qt, QPropertyAnimation, QEasingCurve
 from PyQt6.QtWidgets import QVBoxLayout, QPushButton, QLabel, QWidget, QSpacerItem
 from nestui.Custom_UI import CustomLabel, CustomTitleBar
-
+from ToolboxEditor import ToolboxEditor_UI
 class LauncherMenu(QWidget):
 
     def __init__(self, yaml_path='./toolbox.yaml'):
@@ -235,7 +235,8 @@ class ToolboxUI(QWidget):
 
     def edit_toolbox_method(self):
         print(f"Opening toolbox yaml editor")
-        # Your logic for editing the toolbox goes here
+        self.dlg = ToolboxEditor_UI()
+        self.dlg.show()
         pass
 
     def show_menu(self):
